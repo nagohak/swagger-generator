@@ -1,6 +1,6 @@
 <?php
 
-namespace DEVJS\SwaggerGenerator\src;
+namespace DEVJS\SwaggerGenerator;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;

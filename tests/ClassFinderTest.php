@@ -2,7 +2,7 @@
 
 namespace DEVJS\SwaggerGenerator\tests;
 
-use DEVJS\SwaggerGenerator\src\ClassFinder;
+use DEVJS\SwaggerGenerator\ClassFinder;
 use Tests\TestCase;
 
 class classFinderTest extends TestCase

@@ -3,8 +3,8 @@
 namespace DEVJS\SwaggerGenerator\tests;
 
 use App\Entities\User;
-use DEVJS\SwaggerGenerator\src\ClassFinder;
-use DEVJS\SwaggerGenerator\src\Property;
+use DEVJS\SwaggerGenerator\ClassFinder;
+use DEVJS\SwaggerGenerator\Property;
 use Tests\TestCase;
 
 class PropertyTest extends TestCase
@@ -43,7 +43,5 @@ class PropertyTest extends TestCase
     public function testFillPropertyTypes()
     {
         $propertyTypes = $this->property->fillPropertyTypes($this->modelNamespaces, self::RULES);
-
-        dd();
     }
 }

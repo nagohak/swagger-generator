@@ -2,16 +2,16 @@
 
 namespace DEVJS\SwaggerGenerator\tests;
 
-use DEVJS\SwaggerGenerator\src\Annotation;
-use DEVJS\SwaggerGenerator\src\ClassFinder;
-use DEVJS\SwaggerGenerator\src\DefinitionParser;
-use DEVJS\SwaggerGenerator\src\BaseInfo;
-use DEVJS\SwaggerGenerator\src\Generator;
-use DEVJS\SwaggerGenerator\src\Parameter;
-use DEVJS\SwaggerGenerator\src\Path;
-use DEVJS\SwaggerGenerator\src\Property;
-use DEVJS\SwaggerGenerator\src\Response;
-use DEVJS\SwaggerGenerator\src\RouterParser;
+use DEVJS\SwaggerGenerator\Annotation;
+use DEVJS\SwaggerGenerator\ClassFinder;
+use DEVJS\SwaggerGenerator\DefinitionParser;
+use DEVJS\SwaggerGenerator\BaseInfo;
+use DEVJS\SwaggerGenerator\Generator;
+use DEVJS\SwaggerGenerator\Parameter;
+use DEVJS\SwaggerGenerator\Path;
+use DEVJS\SwaggerGenerator\Property;
+use DEVJS\SwaggerGenerator\Response;
+use DEVJS\SwaggerGenerator\RouterParser;
 use SwaggerGenerator\SwaggerGenerator;
 use Tests\TestCase;
 
