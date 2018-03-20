@@ -1,0 +1,19 @@
+{
+    "name": "devjs/swagger-generator",
+    "description": "Open API 2.0 Swagger.json generator for DEVJS projects",
+    "authors": [
+        {
+            "name": "Grey Infantry",
+            "email": "greyinfantry@devjs.ru"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devjs\\SwaggerGenerator\\": "src"
+        }
+    }
+}
