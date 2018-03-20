@@ -1,7 +1,6 @@
 {
     "name": "devjs/swagger-generator",
     "description": "Open API 2.0 Swagger.json generator for DEVJS projects",
-    "version": "1.0.0-stable",
     "authors": [
         {
             "name": "Grey Infantry",
