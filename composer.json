@@ -8,6 +8,7 @@
             "email": "greyinfantry@devjs.ru"
         }
     ],
+    "minimum-stability": "stable",
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "~6.0"
