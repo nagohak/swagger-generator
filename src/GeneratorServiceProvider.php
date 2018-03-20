@@ -6,15 +6,22 @@ use Illuminate\Support\ServiceProvider;
 
 class GeneratorServiceProvider extends ServiceProvider
 {
+    protected $defer = true;
+
     public function register(): void
     {
         $this->app->singleton(Generator::class, function ($app){
-            return new Generator();
+            return app('DEVJS\SwaggerGenerator\Generator');
         });
     }
 
     public function boot(): void
     {
 
+    }
+
+    public function provides()
+    {
+        return [Generator::class];
     }
 }
